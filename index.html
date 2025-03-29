@@ -56,8 +56,15 @@ if (!isMobile) {
         document.body.style.msTransform     = 'rotate('+deg+'deg)'; 
         document.body.style.oTransform      = 'rotate('+deg+'deg)'; 
         document.body.style.transform       = 'rotate('+deg+'deg)'; 
-}
-      
+}else {
+         widthRatio = 0.95;
+        heightRatio = 0.65;
+        var deg = 90;
+        document.body.style.webkitTransform = 'rotate('+deg+'deg)'; 
+        document.body.style.mozTransform    = 'rotate('+deg+'deg)'; 
+        document.body.style.msTransform     = 'rotate('+deg+'deg)'; 
+        document.body.style.oTransform      = 'rotate('+deg+'deg)'; 
+        document.body.style.transform       = 'rotate('+deg+'deg)'; 
 </script>
 <!-- /Chatra {/literal} -->
 
