@@ -1,0 +1,623 @@
+
+   .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+div#container
+{
+   width: 1003px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #E8F0FC;
+   background-image: url('2b24db77-d6a5-43ee-bfe7-92b6a5091e4b.svg');
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: no-repeat;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+   overflow-y: hidden;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: none;
+   border-radius: 0px;
+}
+#wb_Form1
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   border-radius: 20px;
+}
+#AdvancedButton1
+{
+   background-color: #3370B7;
+   background-image: none;
+   border: 1px solid #2E6DA4;
+   border-radius: 14px;
+   margin: 0;
+   text-align: center;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#AdvancedButton1 p
+{
+   margin: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 16px;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Heading1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 17px;
+   margin: 0;
+   text-align: center;
+   text-transform: none;
+}
+#Layer2
+{
+   background-color: #FFF8E5;
+   background-image: none;
+   border-radius: 16px;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7 div
+{
+   text-align: left;
+}
+#wb_textView 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_textView div
+{
+   text-align: left;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text13 div
+{
+   text-align: left;
+}
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text14 div
+{
+   text-align: left;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text15 div
+{
+   text-align: left;
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text16 div
+{
+   text-align: left;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text17 div
+{
+   text-align: left;
+}
+#wb_Text18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text18 div
+{
+   text-align: left;
+}
+#wb_Text20 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text20 div
+{
+   text-align: left;
+}
+#wb_Text21 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text21 div
+{
+   text-align: left;
+}
+#wb_Text22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text22 div
+{
+   text-align: left;
+}
+#wb_Text23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text23 div
+{
+   text-align: left;
+}
+#wb_Text24 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text24 div
+{
+   text-align: left;
+}
+#wb_Text25 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text25 div
+{
+   text-align: left;
+}
+#wb_Text26 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text26 div
+{
+   text-align: left;
+}
+#wb_Text27 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #DC143C;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text27 div
+{
+   text-align: left;
+}
+#Button1
+{
+   box-sizing: border-box;
+   line-height: 41px;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #C5C5C5;
+   border-radius: 100px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #454545;
+   cursor: pointer;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button1:focus
+{
+   outline: 0;
+}
+#wb_Icon1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 27px;
+   vertical-align: top;
+}
+#wb_Icon1 a
+{
+   text-decoration: none;
+}
+#wb_Icon1 a::after
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   pointer-events: auto;
+   content: "";
+}
+#Icon1
+{
+   overflow: visible;
+   vertical-align: top;
+   width: 100%;
+   height: 100%;
+}
+#Icon1
+{
+   fill: #444444;
+   display: inline-block;
+   font-size: 21px;
+   vertical-align: middle;
+}
+#wb_Icon1:hover #Icon1
+{
+   fill: #444444;
+}
+#Editbox1
+{
+   line-height: 28px;
+   margin: 0;
+   border: 1px solid #DDDDDD;
+   border-radius: 10px;
+   background-color: #696969;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: "Times New Roman";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#AdvancedButton2
+{
+   background-color: #3370B7;
+   background-image: none;
+   border: 1px solid #2E6DA4;
+   border-radius: 14px;
+   margin: 0;
+   text-align: center;
+   text-decoration: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#AdvancedButton2 p
+{
+   margin: 0;
+   padding: 0;
+}
+#AdvancedButton2 > div
+{
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+}
+#Toast1 
+{
+   background-color: rgba(255,255,255,0.85);
+   background-image: none;
+   border: 1px solid #C0C0C0;
+   border-radius: 4px;
+   text-align: left;
+   box-shadow: 0px 4px 10px rgba(0,0,0,0.13);
+}
+#Toast1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+}
+#toasts
+{
+   left: 0;
+   pointer-events: none;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   z-index: 999999;
+}
+.toast *
+{
+   box-sizing: border-box;
+}
+.toast.showing 
+{
+   opacity: 1;
+}
+.toast
+{
+   background-clip: padding-box;
+   margin-left: auto;
+   margin-right: auto;
+   opacity: 0;
+   overflow: hidden;
+   pointer-events: auto;
+   transition: opacity .15s linear;
+}
+.toast.show
+{
+   display: block;
+   opacity: 1;
+}
+.toast.hide
+{
+   display: none;
+}
+.toast strong
+{
+   font-weight: bolder;
+   margin-right: auto;
+}
+.toast small
+{
+   font-size: 80%;
+   font-weight: 400;
+}
+.toast .close
+{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   background-color: transparent;
+   border: 0;
+   color: #C0C0C0;
+   cursor: pointer;
+   float: right;
+   font-size: 150%;
+   font-weight: 700;
+   line-height: 1;
+   margin-left: 0.5rem;
+   opacity: 0.5;
+   padding: 0;
+   text-shadow: 0px 1px 0px #fff;
+}
+.toast p, .toast ul
+{
+   margin: 0;
+   padding: 0;
+}
+#Toast1
+{
+   margin-bottom: 12px !important;
+   text-align: left;
+   width: 237px;
+}
+#Toast1 .toast-header
+{
+   align-items: center;
+   background-clip: padding-box;
+   display: flex;
+   border-bottom: 1px solid rgba(0,0,0,0.06);
+   background-color: rgba(255,255,255,0.50);
+   color: #6C757D;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+   font-style: normal;
+   padding: 10px 12px 10px 12px;
+}
+#Toast1 .toast-body
+{
+   padding: 10px 10px 10px 10px;
+}
+#wb_Marquee1 
+{
+   background-color: #FBFBFB;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+   border-radius: 0px;
+   overflow-y: hidden;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Marquee1
+{
+   color: #0000FF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 20px;
+}
+#wb_Marquee1 div
+{
+   text-align: left;
+}
+#wb_Marquee1
+{
+   overflow: hidden;
+   position: relative;
+}
+#Marquee1
+{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   animation: Marquee1-marquee 5000ms ease infinite;
+}
+@keyframes Marquee1-marquee
+{
+   0%
+   {
+   transform: translateX(100%);
+   }
+   100%
+   {
+   transform: translateX(-100%);
+   }
+}
+ /* Preloader styles */ #preloader { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 9999; background-color: #fff; display: flex; justify-content: center; align-items: center; } .image {  width: 300px; height: 300px; margin: -60px 0 0 -60px; -webkit-animation: spin 1s linear infinite; -moz-animation: spin 1s linear infinite; animation: spin 1s linear infinite; } @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } } @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } } @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } } 
