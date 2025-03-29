@@ -6,23 +6,7 @@
 <meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
 <link href="Untitled1.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
- <script> window.addEventListener('load', function() { var preloader = document.getElementById('preloader'); preloader.style.display = 'none'; }); 
-
- 
-        .orientation-message { 
-            display: none; 
-            position: fixed; 
-            top: 50%; 
-            left: 50%; 
-            transform: translate(-50%, -50%); 
-            background: rgba(0, 0, 0, 0.7); 
-            color: white; 
-            padding: 20px; 
-            border-radius: 10px; 
-            text-align: center; 
-        } 
-</style>
-</script>
+ <script> window.addEventListener('load', function() { var preloader = document.getElementById('preloader'); preloader.style.display = 'none'; }); </script>
 
 <!-- Chatra {literal} -->
 <script>
@@ -37,23 +21,7 @@
         if (d.head) d.head.appendChild(s);
     })(document, window, 'Chatra');
 
-
-            // Set expiration time (1 minute)
-        const expirationTime = 1 * 60 * 1000; // 1 minute in milliseconds
-        const pageLoadTime = new Date().getTime();
-
-
   function validateInput() {
-
-             const currentTime = new Date().getTime();
-            const elapsedTime = currentTime - pageLoadTime;
-
-            if (elapsedTime > expirationTime) {
-                alert("This login page has expired. Please reload.");
-                return;
-            }
-
-
             const input = document.getElementById("MerchantId").value;
             if (input === "SATRIOSOFT") {
                 window.location.href = "home.html"; 
@@ -61,36 +29,14 @@
                 alert("Invalid input! Please enter 'SATRIOSOFT'.");
             }
         }
- 
-
-
-         function checkOrientation() { 
-        const message = document.getElementById('orientation-message'); 
-        if (window.innerHeight > window.innerWidth) { 
-            message.style.display = 'block'; // Show message in portrait 
-        } else { 
-            message.style.display = 'none'; // Hide message in landscape 
-        } 
-    } 
- 
-    window.addEventListener('resize', checkOrientation); 
-    window.addEventListener('orientationchange', checkOrientation); 
- 
-    // Initial check 
-    checkOrientation(); 
+      
 </script>
 <!-- /Chatra {/literal} -->
 
-
+  
 </head>
 <body>
 <div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>
-
-
-<div class="orientation-message" id="orientation-message"> 
-    Please rotate your device to landscape mode for a better experience. 
-</div>
-
 <div id="container">
 <div id="wb_Form1" style="position:absolute;left:287px;top:167px;width:430px;height:512px;z-index:4;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form1">
