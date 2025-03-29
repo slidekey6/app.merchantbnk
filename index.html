@@ -6,7 +6,23 @@
 <meta name="generator" content="WYSIWYG Web Builder 20 - https://www.wysiwygwebbuilder.com">
 <link href="Untitled1.css" rel="stylesheet">
 <link href="index.css" rel="stylesheet">
- <script> window.addEventListener('load', function() { var preloader = document.getElementById('preloader'); preloader.style.display = 'none'; }); </script>
+ <script> window.addEventListener('load', function() { var preloader = document.getElementById('preloader'); preloader.style.display = 'none'; }); 
+
+ 
+        .orientation-message { 
+            display: none; 
+            position: fixed; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            background: rgba(0, 0, 0, 0.7); 
+            color: white; 
+            padding: 20px; 
+            border-radius: 10px; 
+            text-align: center; 
+        } 
+</style>
+</script>
 
 <!-- Chatra {literal} -->
 <script>
@@ -45,26 +61,23 @@
                 alert("Invalid input! Please enter 'SATRIOSOFT'.");
             }
         }
+ 
 
-  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if (!isMobile) {
-        widthRatio = 0.95;
-        heightRatio = 0.65;
-        var deg = 0;
-        document.body.style.webkitTransform = 'rotate('+deg+'deg)'; 
-        document.body.style.mozTransform    = 'rotate('+deg+'deg)'; 
-        document.body.style.msTransform     = 'rotate('+deg+'deg)'; 
-        document.body.style.oTransform      = 'rotate('+deg+'deg)'; 
-        document.body.style.transform       = 'rotate('+deg+'deg)'; 
-}else {
-         widthRatio = 0.95;
-        heightRatio = 0.65;
-        var deg = 90;
-        document.body.style.webkitTransform = 'rotate('+deg+'deg)'; 
-        document.body.style.mozTransform    = 'rotate('+deg+'deg)'; 
-        document.body.style.msTransform     = 'rotate('+deg+'deg)'; 
-        document.body.style.oTransform      = 'rotate('+deg+'deg)'; 
-        document.body.style.transform       = 'rotate('+deg+'deg)'; 
+
+         function checkOrientation() { 
+        const message = document.getElementById('orientation-message'); 
+        if (window.innerHeight > window.innerWidth) { 
+            message.style.display = 'block'; // Show message in portrait 
+        } else { 
+            message.style.display = 'none'; // Hide message in landscape 
+        } 
+    } 
+ 
+    window.addEventListener('resize', checkOrientation); 
+    window.addEventListener('orientationchange', checkOrientation); 
+ 
+    // Initial check 
+    checkOrientation(); 
 </script>
 <!-- /Chatra {/literal} -->
 
@@ -72,6 +85,12 @@ if (!isMobile) {
 </head>
 <body>
 <div id="preloader"> <div class="rotate"> <img width="50" height="50" class="image" alt="" src="https://res.cloudinary.com/dmc6mhmhj/image/upload/v1730250493/logoblack_l25jm9.png"> </div> </div>
+
+
+<div class="orientation-message" id="orientation-message"> 
+    Please rotate your device to landscape mode for a better experience. 
+</div>
+
 <div id="container">
 <div id="wb_Form1" style="position:absolute;left:287px;top:167px;width:430px;height:512px;z-index:4;">
 <form name="Form1" method="post" action="mailto:yourname@yourdomain.com" enctype="multipart/form-data" id="Form1">
