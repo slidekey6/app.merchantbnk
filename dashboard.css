@@ -632,6 +632,9 @@ body
    height: 173px;
    z-index: 31;
 }
-@media only screen and (max-width: 1535px) and (orientation: landscape)
+@media only screen and (min-width: 390px) and (max-width: 1535px) and (orientation: landscape)
+{
+}
+@media only screen and (max-width: 389px) and (orientation: landscape)
 {
 }
