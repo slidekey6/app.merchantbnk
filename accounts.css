@@ -34,7 +34,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(26%) sepia(13%) saturate(15%) hue-rotate(344deg) brightness(94%) contrast(94%);
+   --colorize: invert(25%) sepia(21%) saturate(15%) hue-rotate(355deg) brightness(92%) contrast(90%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -96,7 +96,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(40%) sepia(16%) saturate(2226%) hue-rotate(172deg) brightness(95%) contrast(89%);
+   --colorize: invert(36%) sepia(85%) saturate(444%) hue-rotate(171deg) brightness(94%) contrast(91%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -158,7 +158,7 @@ body
    --border-width: 1px;
    --color: #333333;
    --icon-color: #444444;
-   --colorize: invert(22%) sepia(12%) saturate(0%) hue-rotate(297deg) brightness(100%) contrast(87%);
+   --colorize: invert(22%) sepia(0%) saturate(810%) hue-rotate(154deg) brightness(98%) contrast(83%);
 }
 .ui-state-default
 {
@@ -220,7 +220,7 @@ body
    --border-width: 1px;
    --color: #CCCCCC;
    --icon-color: #3370B7;
-   --colorize: invert(38%) sepia(59%) saturate(671%) hue-rotate(171deg) brightness(94%) contrast(85%);
+   --colorize: invert(33%) sepia(90%) saturate(714%) hue-rotate(180deg) brightness(93%) contrast(81%);
 }
 .darktheme .ui-state-default, .darktheme .wb-theme-static
 {
@@ -2633,7 +2633,16 @@ body
    height: 411px;
    z-index: 121;
 }
-@media only screen and (min-width: 390px) and (max-width: 1535px) and (orientation: landscape)
+@media only screen and (min-width: 1024px) and (max-width: 1535px) and (orientation: landscape)
+{
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape)
+{
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) and (orientation: landscape)
+{
+}
+@media only screen and (min-width: 390px) and (max-width: 479px) and (orientation: landscape)
 {
 }
 @media only screen and (max-width: 389px) and (orientation: landscape)
