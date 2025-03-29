@@ -1052,7 +1052,7 @@ body
    height: 543px;
    z-index: 65;
 }
-@media only screen and (max-width: 320px) and (orientation: landscape)
+@media only screen and (max-width: 1002px) and (orientation: landscape)
 {
 div#container
 {
