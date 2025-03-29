@@ -173,7 +173,7 @@ body
 {
 div#container
 {
-   width: 320px;
+   width: 1004px;
 }
 body
 {
@@ -203,10 +203,6 @@ body
    margin: 0;
    padding: 4px 4px 4px 4px;
    text-align: left;
-   font-size: 21px;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
 }
 #MerchantId
 {
@@ -250,10 +246,6 @@ body
    display: inline;
    margin: 0;
    padding: 1px 6px 1px 6px;
-   font-size: 21px;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
 }
 #wb_Image1
 {
